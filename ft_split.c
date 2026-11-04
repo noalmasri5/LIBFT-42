@@ -3,18 +3,6 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: noalmasr <noalmasr@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/24 14:24:10 by noalmasr          #+#    #+#             */
-/*   Updated: 2026/10/24 16:22:14 by noalmasr         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_split.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
 /*   By: noalmasr <noalmasr@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 12:14:55 by noalmasr            #+#    #+#             */
@@ -95,20 +83,24 @@ char	**ft_split(char const *s, char c)
 	return (result);
 }
 
-#include <stdio.h>
-int main(void)
-{
-char **result;
-int i;
+// #include <stdio.h>
+// int main(void)
+// {
+// char **result;
+// int i;
 
-result = ft_split("--42 -is the best", '-');
-i = 0;
-while (result[i])
-{
-	printf("[%s]\n", result[i]);
-	free(result[i]);
-	i++;
-}
+// result = ft_split("--42 -is the best", '-');
+// i = 0;
+// while (result[i])
+// {
+// 	printf("[%s]\n", result[i]);
+// 	free(result[i]);
+// 	i++;
+// }
+// free(result);
+// return (0);
+
+// }
 free(result);
 return (0);
 
