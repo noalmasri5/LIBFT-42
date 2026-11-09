@@ -101,7 +101,4 @@ char	**ft_split(char const *s, char c)
 // return (0);
 
 // }
-free(result);
-return (0);
 
-}

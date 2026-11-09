@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: noalmasr <noalmasr@student.42.fr>          +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 14:33:11 by noalmasr          #+#    #+#             */
-/*   Updated: 2026/10/16 15:12:11 by noalmasr         ###   ########.fr       */
+/*   Updated: 2026/11/09 18:46:26 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,12 +38,14 @@ int	ft_atoi(const char *str)
 }
 
 // #include <stdio.h>
+// #include <stdlib.h>
 
 // int	main(void)
 // {
-// 	printf("%d\n", ft_atoi("123"));
-// 	printf("%d\n", ft_atoi("-42"));
-// 	printf("%d\n", ft_atoi("--234"));
-// 	printf("%d\n", ft_atoi("123abc"));
+// 	char	*str;
+
+// 	str = "  --42";
+// 	printf("Original atoi: %d\n", atoi(str));
+// 	printf("My ft_atoi:    %d\n", ft_atoi(str));
 // 	return (0);
 // }
